@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Feedback and Review
+        </title>
+    </head>
+    <body style="background-image: url('loginpagebackground.jpg');">
+        <div class="container my-5"> 
+           <form>
+             <div>
+               
+             </div>
+            <div class="mb-5">
+                <label for="InputName" class="form-label" style="color: aqua;font-size: 24px;">Name</label>
+                <input type="f-name" class="form-control" id="name" style="width: 500px;">
+              </div>
+              
+            <div class="mb-5">
+              <label for="InputEmail" class="form-label"style="color:aqua;font-size: 24px;">Email address</label>
+              <input type="email" class="form-control" id="email"  placeholder="XYZ@gmail.com"style="width: 500px;">
+              <div id="emailHelp" style="color:greenyellow;font-size: 24px;"class="form-text">We will never share your email with anyone else.</div>
+            </div>
+            
+            <div class="form-group mb-5">
+                <label class="col-md-3 control-label" style="color:aqua;font-size: 24px;"for="review">Feedback</label>
+                <div class="col-md-9">
+                  <textarea class="form-control" id="message"style="width: 500px;" name="message" placeholder="Please enter your feedback here..." rows="5"></textarea>
+                </div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox">
+                <label class="form-check-label"style="color:aqua;font-size: 24px;" for="check">Check me out</label>
+              </div>
+            <button type="submit" class="btn btn-primary"><a href="form_out.html" class="text-light" style="text-decoration: none;">Submit</a></button>
+            </form>
+        </div>
+    </body>
+</html>

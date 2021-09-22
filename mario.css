@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+.heading {
+	width: 90%;
+	margin: 20px auto;
+	text-align: center;
+	color: rgb(0,0,0);
+	font-size: 1.8rem;
+}
+
+<!--.Rules {
+	margin: 20px auto;
+	width: 50%;
+	height: 350;
+	border: 2px solid black;
+	padding: 40px 20px;
+}-->
+.image{
+	height: 350px;
+	
+}
+
+.i{
+	height:350px;
+}
+.section {
+	margin: 20px auto;
+	width: 75%;
+	height: 350px;
+	border: 2px solid black;
+	padding: 15px 20px;
+}
+
+.section p {
+	font-size:2vw;
+	margin-top: 8px;
+}
+.section h2 {
+	text-align: center;
+}
+
+.section h5 {
+	text-align: center;
+}
+
+.section h6 {
+	text-align: left;
+	margin-left: 30px;
+	font-size: 0.9rem;
+}
+
+.content {
+	margin-top: 30px;
+	padding: 10px 20px;
+}
+
+.content p {
+	font-size: 0.999rem;
+}
+
+.section ol li{
+	font-size: 0.8rem;
+}
+
+hr {
+	border-color: black;
+	background-color: black;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 3px;
+}
+
+span {
+	font-weight: bold;
+}
+#khasipic {
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	border: 2px solid  black;
+	background: url('../img/khasi.jpg') no-repeat center center/cover;
+}
+
+#members {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	justify-content: space-evenly;
+}
+
+.team-member {
+	width: 30%;
+	margin: 10px auto;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.image{
+	width: 70%;
+}
+
+.image img {
+	width: 100%;
+	height: 142px;
+	border: 2px solid black;
+}
+
+.info {
+	padding: 10px;
+	font-weight: bold;
+}
+
+#our-team,#what-we-do,#why-we-do{
+	background-color: rgba(198, 241, 128, 0.61);
+	color: black;
+}
+
+#bg{
+	background: url('../img/about-bg.jpg') no-repeat center center/cover;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#why-we-do .list{
+	margin:  15px 20px;
+	
+}
+
+#why-we-do .list .item{
+	margin: 10px 15px;
+}
+
+.why-images{
+	width: 60%;
+	margin: auto;
+	height: 200px;
+	border: 2px solid black;
+}
+
+
+#climate{
+	background: url('../img/climate.jpg') no-repeat center center/cover;
+	
+}
+
+
+#health{
+	background: url('../img/health.jpg') no-repeat center center/cover;
+}
+
+#soil{
+	background: url('../img/soil.jpg') no-repeat center center/cover;
+}
+
+#wild{
+	background: url('../img/wildlife.webp') no-repeat center center/cover;
+}
+
+#water{
+	background: url('../img/water.jpg') no-repeat center center/cover;
+}
+
+.list > ol > li{
+	font-size: 1rem;
+}
+
+
+#nav{
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(to right,rgb(22, 17, 6)35%,rgba(198, 241, 128, 0.521)55% );
+	padding: 25px 50px;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	
+	
+	
+}
+
+#nav a{
+	margin-right: 15px;
+	text-decoration: none;
+	color: rgb(221, 243, 187);
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+
+}
+#nav a:hover{
+	text-decoration: underline;
+
+}
+
+h1{
+	
+	font-family: 'Rubik', sans-serif;
+	color: black;
+}
+h2{
+	font-family: 'Work Sans', sans-serif;
+	color: rgb(121, 6, 6);
+	
+}
+h5{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.item ul li {
+	font-size: 0.999rem;
+}

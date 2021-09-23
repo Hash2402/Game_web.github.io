@@ -5,6 +5,11 @@
 	box-sizing: border-box;
 }
 
+.h1{
+        color:#660066
+	font family:verdana, sans-serif;
+}
+
 .heading {
 	width: 90%;
 	margin: 20px auto;

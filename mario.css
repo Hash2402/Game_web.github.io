@@ -5,16 +5,11 @@
 	box-sizing: border-box;
 }
 
-.header{
-        color:#660066
-	font family:verdana, sans-serif;
-}
-
 .heading {
 	width: 90%;
 	margin: 20px auto;
 	text-align: center;
-	color:aqua;
+	color: rgb(0,0,0);
 	font-size: 1.8rem;
 }
 

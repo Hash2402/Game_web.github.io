@@ -12,18 +12,6 @@
 	color: rgb(0,0,0);
 	font-size: 1.8rem;
 }
-
-#snake{
-    background: linear-gradient(rgb(131, 223, 226), rgb(216, 236, 170));
-    position: absolute;
-    top: 440px;
-    right: 140px;
-    font-size: 39px;
-    font-weight: bold;
-    
-
-}
-
 <!--.Rules {
 	margin: 20px auto;
 	width: 50%;

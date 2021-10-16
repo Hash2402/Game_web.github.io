@@ -15,7 +15,7 @@ function average(){
     alert("Medium Mode Activated!");
 }
 function fast(){
-    speed = 40
+    speed = 35
     alert("Hard Mode Activated!");
 }
 

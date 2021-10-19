@@ -25,9 +25,9 @@
 }
 #play
 {
-    background: linear-gradient(rgb(61, 233, 46), rgb(128, 235, 176));
+    background: linear-gradient(rgb(233, 90, 46), rgb(240, 108, 207));
     position: absolute;
-    top: 500px;
+    top: 600px;
     right: 400px;
     font-size: 39px;
     font-weight: bold;

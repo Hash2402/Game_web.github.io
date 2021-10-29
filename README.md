@@ -1,2 +1,2 @@
-# Mario_web
-Mario Game using web technologies
+#GAMING ZONE
+Game using web technologies

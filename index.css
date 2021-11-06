@@ -36,9 +36,9 @@
 
 #playtictactoe
 {
-    background: linear-gradient(rgb(86, 241, 81), rgb(218, 245, 65));
+    background:  linear-gradient(rgb(238, 172, 235), rgb(245, 116, 245));
     position: absolute;
-    top: 860px;
+    top: 900px;
     right: 400px;
     font-size: 35px;
     font-weight: bold;

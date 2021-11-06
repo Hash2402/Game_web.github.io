@@ -47,9 +47,9 @@
 
 #playballdive
 {
-    background: linear-gradient(rgb(86, 241, 81), rgb(218, 245, 65));
+    background: linear-gradient(rgb(255, 78, 116), rgb(245, 116, 144));
     position: absolute;
-    top: 1200px;
+    top: 1600px;
     right: 400px;
     font-size: 35px;
     font-weight: bold;

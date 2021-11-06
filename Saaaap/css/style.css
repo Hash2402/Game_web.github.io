@@ -87,3 +87,55 @@
     border: .25vmin solid rgb(63, 71, 24);
     border-radius: 8px;
 }
+
+@media screen and (max-width: 950px)
+{
+    
+.body{
+    background: aqua;
+    min-height: 50vh;
+    background-size: 50vw 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+	#GAMENAME{
+    background: linear-gradient(rgb(61, 233, 46), rgb(128, 235, 176));
+    position: absolute;
+    top: 600px;
+    right: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 9px;
+	}
+    #scoreBox{
+    background: linear-gradient(rgb(229, 243, 103), rgb(235, 211, 76));
+    position: absolute;
+    top: 640px;
+    right: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 9px;
+    border: .25vmin solid black;
+	}
+	#hiscoreBox{
+    background: linear-gradient(rgb(223, 238, 86), rgb(235, 211, 76));
+    position: absolute;
+    top: 680px;
+    right: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 9px;
+    border: .25vmin solid black;
+	}
+	#setting{
+    background: linear-gradient(rgb(219, 127, 238), rgb(231, 191, 228));
+    position: absolute;
+    top: 720px;
+    right: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 9px;
+	}
+}

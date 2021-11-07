@@ -16,10 +16,19 @@ body
     height: 500px;
     border: 1px solid black;
     margin: auto;
-    overflow: hidden;
-   
-   
+    overflow: hidden;  
 }
+
+#GAMENAME{
+    background: linear-gradient(rgb(61, 233, 46), rgb(128, 235, 176));
+    position: absolute;
+    top: 200px;
+    right: 260px;
+    font-size: 39px;
+    font-weight: bold;
+    border-radius: 9px;
+}
+
 #character{
     width: 20px;
     height: 20px;

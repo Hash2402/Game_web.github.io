@@ -18,6 +18,7 @@ function moveRight(){
         character.style.left = left + 2 + "px";
     }
 }
+//code to start music
 foodSound.play();
 //Keyboard keys
 document.addEventListener("keydown", event => {

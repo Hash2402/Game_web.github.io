@@ -1,3 +1,4 @@
+const foodSound = new Audio('musicBall.mp3');
 var character = document.getElementById("character");
 var game = document.getElementById("game");
 var interval;
@@ -17,6 +18,7 @@ function moveRight(){
         character.style.left = left + 2 + "px";
     }
 }
+foodSound.play();
 //Keyboard keys
 document.addEventListener("keydown", event => {
     if(both==0){

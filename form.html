@@ -47,26 +47,26 @@
                
              </div>
             <div class="mb-5">
-                <label for="InputName" class="form-label" style="color: aqua;font-size: 24px;">Name</label>
+                <label for="name" class="form-label" style="color: aqua;font-size: 24px;">Name</label>
                 <input type="f-name" class="form-control" id="name" style="width: 500px;" required>
               </div>
               
             <div class="mb-5">
-              <label for="InputEmail" class="form-label"style="color:aqua;font-size: 24px;">Email address</label>
+              <label for="email" class="form-label"style="color:aqua;font-size: 24px;">Email address</label>
               <input type="email" class="form-control" id="email"  placeholder="XYZ@gmail.com"style="width: 500px;" required>
               <div id="emailHelp" style="color:greenyellow;font-size: 24px;"class="form-text">We will never share your email with anyone else.</div>
             </div>
 		
             
             <div class="form-group mb-5">
-                <label class="col-md-3 control-label" style="color:aqua;font-size: 24px;"for="review">Feedback</label>
+                <label class="col-md-3 control-label" style="color:aqua;font-size: 24px;"for="message">Feedback</label>
                 <div class="col-md-9">
                   <textarea class="form-control" id="message"style="width: 500px;" name="message" placeholder="Please enter your feedback here..." rows="5" required></textarea>
                 </div>
               </div>
 	    <div class="form-group mb-5">
                 <label for="games" style="color:aqua;font-size: 24px;">GAME : </label>
-        <select name="games" id="games">
+        <select name="games" id="games" required>
             <option value="snake">The Real Snake</option>
             <option value="tic">TIC-TAC-TOE</option>
             <option value="opel">Dive Ball</option>
@@ -75,7 +75,7 @@
         <br>
 	<br>
         <label for="rating" style="color:aqua;font-size: 24px;">Rate the game : </label>
-        <select name="rating" id="rating">
+        <select name="rating" id="rating" required>
             <option value="1">1 Star</option>
             <option value="2">2 Star</option>
             <option value="3">3 Star</option>
@@ -84,8 +84,8 @@
         </select>
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="checkbox">
-                <label class="form-check-label"style="color:aqua;font-size: 24px;" for="check">Check me out</label>
+                <input type="checkbox" class="form-check-input" id="checkbox" required>
+                <label class="form-check-label"style="color:aqua;font-size: 24px;" for="checkbox">Check me out</label>
               </div>
             <button type="submit" class="btn btn-primary"><a href="form_out.html" class="text-light" style="text-decoration: none;">Submit</a></button>
             </form>

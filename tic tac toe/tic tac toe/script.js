@@ -1,10 +1,10 @@
 console.log("Tic Tac Toe")
 let audioTurn = new Audio("ting.mp3")
 let gameover = new Audio("gameover.mp3")
-const foodSound = new Audio('TicTacMusic.mp3');
+const TicSound = new Audio('TicTacMusic.mp3');
 let turn = "X"
 let isgameover = false;
-
+TicSound.play();
 // Code to Change The Turn
 const changeTurn = ()=>{
     return turn === "X"? "0": "X"
@@ -37,7 +37,6 @@ const checkWin = ()=>{
 }
 
 //Logic
-foodSound.play();
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector('.boxtext');
